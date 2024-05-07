@@ -23,8 +23,6 @@ public class StudentService {
 
     public void addStudent(Student s1){
         repo.save(s1);
-
-
     }
 
     public List<Student> getStudents() {
